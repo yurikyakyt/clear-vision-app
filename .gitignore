@@ -25,6 +25,7 @@ __pycache__/
 env/
 media/images/
 db.sqlite3
+static/cnn/modelResNet50PreIdeal.h5
 
 # React
 node_modules/

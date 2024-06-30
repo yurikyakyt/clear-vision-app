@@ -1,5 +1,3 @@
-from django.shortcuts import render
-from django.http import HttpResponse
 from rest_framework import viewsets, permissions
 from django.shortcuts import get_object_or_404
 from .serializers import *
@@ -7,15 +5,10 @@ from rest_framework.response import Response
 from .models import *
 from users.models import User
 import tensorflow as tf
-from tensorflow import keras
 import numpy as np
-from matplotlib.pyplot import imshow
 from PIL import Image
 from rest_framework.decorators import action
 import os
-import rembg
-from django.http import QueryDict
-from urllib.parse import urlencode
 
 
 

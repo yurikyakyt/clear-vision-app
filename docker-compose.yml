@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: ./graduation_thesis_front
+    ports:
+      - "3000:3000"
+
+  backend:
+    build:
+      context: ./graduation_thesis_back
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - frontend

@@ -1,0 +1,12 @@
+Django>=3.2,<4.0
+djangorestframework>=3.12,<4.0
+psycopg2>=2.8,<3.0  # Для работы с PostgreSQL
+django-cors-headers>=3.7,<4.0  # Для настройки CORS
+Pillow>=8.2,<9.0  # Для работы с изображениями
+django-environ>=0.4.5,<0.5  # Для работы с переменными окружения
+gunicorn>=20.1,<21.0  # WSGI HTTP Server для сервера
+tensorflow
+matplotlib
+rembg
+pyjwt>=2.0,<3.0
+jwt
